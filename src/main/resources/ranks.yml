@@ -1,0 +1,20 @@
+# SKYLAKE CHAT PLUGIN
+#
+# CURRENT TAGS : INFO, PREFIX, USERNAME, MESSAGE, RAW_USERNAME, RAW_MESSAGE
+# Explanation:
+# INFO | allows extra information to be shown about a player while hovering in chat
+# USERNAME | *No Explanation needed*
+# MESSAGE| *No Explanation needed*
+# RAW_MESSAGE | *No Explanation needed*
+# RAW_USERNAME | *No Explanation needed*
+#
+# Copyright (c) 2017 Skylake, Apthos
+ranks:
+  default:
+    format: "&c{INFO} {PREFIX} {USERNAME} &8> {MESSAGE}"
+    username: "&c{RAW_USERNAME}"
+    prefix: "&aDefault"
+    info: "&c[&e&l?&c]"
+    message: "&f{RAW_MESSAGE}"
+    permission: "SkyChat.Group.default"
+    priority: 5

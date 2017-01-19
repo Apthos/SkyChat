@@ -1,0 +1,17 @@
+name: SkyChat
+version: ${project.version}
+main: net.apthos.skychat.SkyChat
+
+commands:
+  rank:
+    description: used for rank management
+    usage: /rank
+  ranklist:
+    description: Get a list of all loaded Ranks
+    usage: /RankList
+  RawMessageTest:
+    description: For Testing Raw Messaging
+    usage: /rawmessagetest
+  Discord:
+    description: Getting Discord Join Link
+    usage:  /Discord
