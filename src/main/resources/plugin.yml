@@ -1,6 +1,7 @@
 name: SkyChat
 version: ${project.version}
 main: net.apthos.skychat.SkyChat
+softdepend: [Guilds]
 
 commands:
   rank:
@@ -15,3 +16,6 @@ commands:
   Discord:
     description: Getting Discord Join Link
     usage:  /Discord
+  nick:
+    description: Used for setting nick
+    usage:  /nick
